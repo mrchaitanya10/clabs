@@ -836,3 +836,66 @@ font-size:44px;
 }
 
 }
+/* Contact Info Cards */
+
+.info-card{
+
+    display:flex;
+    align-items:center;
+    gap:20px;
+
+    background:rgba(255,255,255,.05);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    backdrop-filter:blur(15px);
+
+    border-radius:18px;
+
+    padding:20px;
+
+    margin-bottom:20px;
+
+    transition:.35s;
+}
+
+.info-card:hover{
+
+    transform:translateY(-6px);
+
+    border-color:#38bdf8;
+
+    box-shadow:0 0 25px rgba(56,189,248,.25);
+
+}
+
+.info-card span{
+
+    font-size:34px;
+
+}
+
+.info-card h3{
+
+    margin-bottom:6px;
+
+}
+
+.info-card p{
+
+    color:#cbd5e1;
+
+}
+.info-card a{
+
+    color:#38bdf8;
+
+    text-decoration:none;
+
+}
+
+.info-card a:hover{
+
+    text-decoration:underline;
+
+}
